@@ -1,0 +1,54 @@
+body {
+    margin-left: 11%;
+    margin-right: 11%;
+    margin-top: 3%;
+    background-image: url("../img/bg.jpg");
+    background-attachment: fixed;
+    font-family: Candara;
+}
+
+.top {
+    background: antiquewhite;
+}
+
+.leftpic {
+    float: left;
+    margin: 0px 20px 2px 2px;
+}
+
+.info {
+    font-size: 22px;
+}
+
+p {
+    font-size: 25px;
+    color: black;
+    text-decoration:overline;
+    text-decoration: none;
+}
+
+
+h2 {
+    font-size: 30px;
+    align="left";
+}
+
+.youngpic {
+    float: right;
+    margin: 2px 0px 2px 20px;
+}
+
+.zakoni {
+    text-decoration:underline;
+}
+
+.zakon {
+    color: black;
+    background: oldlace;
+    opacity: 80%;
+}
+
+.robomiddle {
+    display: block;
+    margin: 0 auto;
+}

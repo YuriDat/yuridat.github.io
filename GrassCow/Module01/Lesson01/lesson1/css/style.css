@@ -1,0 +1,23 @@
+/*body {*/
+    /*background: red;*/
+/*}*/
+
+/*Селектор по тегу*/
+h1 {
+    background: green;
+}
+
+p {
+    color: blue;
+}
+
+/*Селектор по id*/
+#bg {
+   color: red;
+}
+
+/*Селектор по классу*/
+.my-style {
+    background: red;
+    color: green;
+}
