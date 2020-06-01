@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "MyriadProRegular", "Tahoma";
+}
+a{
+    text-decoration: none;
+}
+header a{
+    text-decoration: none;
+    color: rgb(148, 148, 148);
+}
+li{
+    list-style-type: none;
+}
+header{
+    margin: auto;
+    font-size: 15.5px;
+    width: 1258px;
+    height: 40px;
+}
+.line {
+    margin: auto;
+    width: 1258px;
+    cursor: default;
+}
+.heading{
+    text-transform: uppercase;
+    cursor: pointer;
+    color: rgb(148, 148, 148);
+    display: flex;
+    margin-top: 30px;
+}
+
+/*
+.heading a{
+    padding: 0 20px;
+}
+.heading a:first-child{
+    padding-left: 0;
+}
+*/
+
+.heading {
+    height: 15px;
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+}
+.heading a:hover {
+    border-bottom: 5px solid rgb(148, 148, 148);
+}
+
+.content__main {
+    margin: auto;
+    width: 1258px;
+}
+h2 {
+    text-transform: uppercase;
+    color: rgb(91, 91, 91);
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+    padding: 23px 0px 30px 0px;
+}
+.main__rec-sel{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 18px;
+}
+.kotletki {
+    display: inline-block;
+    position: relative;
+}
+.main__rec-sel a {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: normal;
+
+}
+.main__rec-sel p {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.box1 img {
+    margin-top: 40px;
+}
+.box1 {
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: block;
+    height: 200px;
+    width: 530px;
+    margin: auto 46px;
+    text-shadow: 3px 5px 6px rgb(148, 148, 148), -6px -7px 6px white;
+}
+.box2 {
+    position: absolute;
+    top: 417px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: block;
+    height: 200px;
+    width: 530px;
+    margin: auto 46px;
+    text-shadow: 3px 5px 6px rgb(148, 148, 148), -6px -7px 6px white;
+}
+.box2 img {
+    margin-top: 40px;
+}
+                                 /* КНОПКИ */
+.recipes__list {
+    margin: auto;
+    width: 1258px;
+    display: flex;
+
+}
+.list a {
+    color: rgb(91, 91, 91);
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list {
+    width: 450px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: rgb(241, 241, 241);
+    border-radius: 50px;
+}
+.list li {
+    width: 150px;
+}
+.button-active {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+}
+.button-active a {
+    color: rgb(241, 241, 241);
+    margin: auto;
+}
+.button-inactive a:hover {
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: rgb(148, 148, 148);
+    color: white;
+}
+.recipes__list {
+    width: 450px;
+    height: 40px;
+    margin-bottom: 40px;
+}
+                                /* конец кнопок */
+.content__recipes {
+    width: 1258px;
+    margin: auto;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1258px;
+    height: 308px;
+    padding-bottom: 20px;
+}
+.block1 {
+    height: 308px;
+    width: 623px;
+    display: flex;
+}
+.image {
+    width: 306px;
+    height: 308px;
+    display: flex;
+    flex-direction: column;
+}
+.image {
+    position: relative;
+}
+.photo-name {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 17px;
+    left: 17px;
+}
+.photo-name a {
+    color: #bcbcbc;
+    margin-left: 7px;
+    text-shadow: 3px 5px 6px black, -6px -7px 6px black;
+
+}
+.block1-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: normal;
+    height: 305px;
+    width: 317px;
+    border: 2px solid #e8e8e8}
+
+h3 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 25px;
+    margin: 16px 6px 0px 6px;
+    cursor: default;
+    color: 3d3d3d;
+}
+.icons {
+    display: flex;
+    width: 295px;
+    height: 32px;
+    margin: 15px 10px 10px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons span {
+    color: #c1a16a;
+    font-size: 15px;
+    cursor: default;
+}
+.icon1,
+.icon2,
+.icon3 {
+    border: 1px solid #e8e8e8;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    width: 92px;
+    height: 32px;
+}
+.icons img {
+    margin: 5px;
+}
+.icons {
+    padding-bottom: 18px;
+}
+.text {
+    margin: 0px 10px;
+    font-size: 15px;
+    padding-bottom: 10px;
+    cursor: default;
+}
+.socials__ico {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid #e8e8e8;
+}
+.ico__like {
+    display: flex;
+    align-items:  center;
+}
+.ico__like span {
+    font-size: 15px;
+    color: #9b9b9b;
+    cursor: default;
+}
+.ico__like img {
+    margin: 10px 5px 10px 10px;
+
+}
+.ico__others {
+    display: flex;
+}
+.ico__others img {
+    margin: 8px;
+}
+.ico__others img:last-child {
+    margin-right: 18px;
+    margin-left: 10px;
+}
+.block2 {
+    height: 308px;
+    width: 623px;
+    display: flex;
+}
+.block2-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: normal;
+    height: 305px;
+    width: 317px;
+    border: 2px solid #e8e8e8
+}
+.block2-content h3 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 25px;
+    margin: 16px 6px 0px 6px;
+    cursor: default;
+    color: 3d3d3d;
+}
+.icons2 img {
+    margin: 5px;
+}
+.icons2 {
+    padding-bottom: 5px;
+}
+.icons2 {
+    display: flex;
+    width: 295px;
+    height: 32px;
+    margin: 15px 10px 5px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons2 span {
+    color: #c1a16a;
+    font-size: 15px;
+    cursor: default;
+}
+.text2 {
+    margin: 0px 10px;
+    font-size: 15px;
+    padding-bottom: 34px;
+    cursor: default;
+}
+.hot {
+    display: flex;
+    justify-content: space-between;
+    height: 490px;
+    width: 1258px;
+    padding-bottom: 20px;
+}
+.hot1,
+.hot2,
+.hot3,
+.hot4 {
+    display: flex;
+    width: 306px;
+    height: 490px;
+    position: relative;
+}
+
+.child {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 48px;
+    left: 85px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+}
+.break {display: flex;
+    align-items: center;
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    left: 75px;
+    bottom: 48px;
+}
+.kyky {display: flex;
+    align-items: center;
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    left: 57px;
+    bottom: 48px;
+}
+.heal {display: flex;
+    align-items: center;
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    left: 71px;
+    bottom: 48px;
+}
+footer {
+    margin: auto;
+    font-size: 15px;
+    height: 70px;
+    background-color: #252627;
+}
+.footing {
+    text-transform: uppercase;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    width: 385px;
+    height: 70px;
+    align-items: center;
+    margin-top: 30px;
+}
+.foot {
+    margin: auto;
+    width: 1258px;
+}
+.footing a {
+    color: #949494;
+}
+.footing a:hover {
+    border-bottom: 5px solid rgb(148, 148, 148);
+}
+@font-face{
+    font-family: "Myriad Pro";
+    src: url("fonts/MyriadPro/MyriadProRegular.ttf");
+}
